@@ -4,6 +4,9 @@ SELECT ekwipunek.ilosc_przedmiotow, postac.nazwa FROM ekwipunek JOIN postac ON e
 -- Zapytanie wyświetlające wszystkie bronie posiadające więcej niż 20 punktów ataku
 SELECT * FROM przedmioty WHERE atak > 20;
 
+-- Wyświetlanie łącznej ilości przedmiotów danej postaci
+SELECT ekwipunek.ilosc_przedmiotow, postac.nazwa FROM ekwipunek INNER JOIN postac ON ekwipunek.postac_id = postac.id;
+
 -- Zapytanie wyświetlające nagrody za zadania w których gracz musi zabić jakąś postać
 SELECT nagroda FROM zadania WHERE tresc LIKE 'Zabij%';
 
