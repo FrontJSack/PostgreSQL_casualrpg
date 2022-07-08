@@ -1,4 +1,4 @@
-Bazy danych – Projekt - Gra komputerowa | Jacek Leszczyński 2022r.
+# Bazy danych – Projekt na uczelnie - Gra komputerowa | Jacek Leszczyński 2022r.
 
 Baza danych przeznaczona jest do gry komputerowej RPG dla wielu graczy. Posiada ona pięć encji:
 - postać
